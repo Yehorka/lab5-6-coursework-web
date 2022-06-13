@@ -1,0 +1,607 @@
+/* CSS Document */
+body{
+	font-family: 'Source Sans 3', sans-serif;
+	background-color: #626262;
+	font-size: 1.3vw;
+	margin: 0;
+}
+header{
+	z-index: 1;
+	padding: 0.5em 0 0 0; 
+	width: auto;
+}
+h1{
+	font-size: 4vw;
+	font-weight: 400;
+}
+body > div.bg > div.beige_bg > header > div > div.logo > h1 > a{
+	color:#403E3B;
+	text-decoration: none;
+}
+h4{
+	margin:0 0 0.5em 0;
+}
+.right-column > *{
+	margin: 16px 0 0 0;
+}
+hr{
+	margin:0;
+}
+.header{
+	display: flex;
+	flex-flow: row;
+	align-items: stretch;
+	justify-content: space-between;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.logo{
+	display: flex;
+	width: 30%;
+	font-size: 100%;
+}
+.logo > h1{
+	font-family: 'Stick No Bills', sans-serif;
+	padding: 0 10px 0 10px;
+	margin:0;
+	font-size: 2vw;
+	}
+.links{
+	display: flex;
+	flex-direction: row;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	float: right;
+}
+.links > a{
+	text-decoration: none;
+	color:#000;
+	margin: 0 0 0 2em;
+}
+hr.grayline{
+	border: 0;
+	width: auto;
+	background-color: #C0C0C0;
+	height: 0.2em;
+	margin: 0.5em 1% 0.5em 5%;
+}
+.bg{
+	display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 95% 5%;
+}
+.beige_bg{
+	position: relative;
+	height: 100%;
+	background: url("../images/Rectangle1.png");
+	background-blend-mode: multiply;
+	mix-blend-mode: normal;
+	filter: drop-shadow(13px 4px 11px rgba(0, 0, 0, 0.25));
+	border-radius: 0px 2vw 2vw 0px;
+}
+.red_bg{
+	right: 0;
+	border-radius: 2.5vw;
+	background-color: #FF0202;
+	margin: 0 0 0 -100px;
+}
+.group{
+	margin: 0 5% 0 5%;
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
+}
+.group2{
+	margin: 0 5% 0 5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+}
+.group3{
+	margin: 0 5% 0 5%;
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+}
+.inner-group{
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+}
+.fish{
+	display:flex;
+}
+.fishcont{
+	width:20%;
+	margin-right:7.2em;
+	font-size: 60%;
+	color: rgba(0, 0, 0, 0.5);;
+}
+hr.orange{
+	border: 0;
+	margin: 10px 0;
+	width: auto;
+	border-top: 2px dashed #FF9417;
+	height: 0.2em;
+	margin-top: 0.5em;
+}
+.dotted_vert1{
+	position: absolute;
+	width:0;
+	height: 94%;
+	border:0;
+	border-left: 2px dashed #C0c0c0;
+	left:2%;
+	top:1%;
+	bottom: 5%;
+}
+.dotted_vert2{
+	position: absolute;
+	width:0;
+	height: 94%;
+	border:0;
+	border-left: 2px dashed #C0c0c0;
+	right:2%;
+	top:1%;
+	bottom: 5%;
+}
+
+.jordan{
+	background-image: url(../images/image1.png);
+	box-sizing: border-box;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+	border-bottom-right-radius: 35px;
+	border-top-right-radius: 35px;
+	z-index: 2;
+	
+}
+.toshoprect{
+	background-color:#1782FF;
+	display: inline-block;
+	width:100px;
+	height: 100%;
+	margin-left: -40px;
+	z-index: 1;
+   	position: relative;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+}
+.sneaker-groupcont{
+	margin: 20px 0 10vh 0;
+	display: flex;
+	flex-direction: row;
+	height: 30vw;
+	width:100%;
+}
+.sneaker{
+	background-color: #FF0202;
+	display: inline;
+	padding: 10px;
+	margin: 10px 10px 10px -10px;
+}
+.sneakergroup{
+	font-size:5vw;
+	font-weight: 600;
+}
+.right-column{
+	font-size:1.4vw;
+}
+img.shoppingcart{
+	display: block;
+	width: 40px;
+	
+	float: right;
+	margin:10px;
+}
+img.air-jordan{
+	margin:90px 0 -40px -200px;
+	z-index: 4;
+}
+.group > div.right-column > h2{
+	font-size:3.5vw;
+	font-weight: 400;
+}
+.group > div.right-column > h3{
+	font-size:2vw;
+	font-weight: 400;
+}
+h4{
+	font-size:1.8vw;
+	font-weight: 400;
+}
+.group > div.right-column > h5{
+	font-size:1.6vw;
+	font-weight: 400;
+}
+.bestsneakers{
+	width: 100%;
+}
+
+.menu_button {
+    float: right;
+    position: fixed;
+    right: 1%;
+    top: 35px;
+    cursor: pointer;
+    width: 3%;
+}
+body > div > div.beige_bg > div:nth-child(6) > div.right-column {
+	text-align: right;
+}
+.divider{
+	height:100px;
+}
+.boldtext-field{
+	font-family: 'Source Sans 3';
+	font-style: normal;
+	font-weight: 400;
+	width:80%;
+	margin: 1.5em 0 0 10px
+}
+.jordan2{
+	width:100%;
+}
+.jordan3{
+	width:100%;
+}
+.heading{
+	margin: 1.5em 0 ;
+	width: 150%;
+}
+body > div > div.beige_bg > div.group2 > div.to_catc{
+	display: flex;
+	flex-direction: column;
+    justify-content: flex-end;
+}
+.to_cat{
+	width:75%;
+	margin: 0 0 10% 0;
+}
+div.group3 > div.right-column > div.boldtext-field{
+	width:50%;
+}
+div.group3 > div.right-column{
+	margin: 0 0 0 10%;
+}
+div.group3 > div.right-column > div > div.fish{
+	display:block;
+	float:right;
+	width:50%;
+	text-align: end;
+}
+.to_call{
+	float:right;
+	cursor: pointer;
+}
+.footer{
+	margin: 3em 0 2em 0;
+	text-align: center;
+}
+.footer-box{
+	margin: 0 5% 2em 5%;
+	display: flex;
+	justify-content: space-around;
+}
+.popup {
+    display: none;
+    position: fixed;
+    padding: 10px;
+    width: 50%;
+    right: 25%;
+    left: 25%;
+    height: auto;
+    top: 25%;
+    background: #F6F3E8;
+    z-index: 20;
+    text-align: center;
+    font-size: 2.5em;
+}
+.popup > i{
+	position: absolute;
+	right: 0.5em;
+	top: 0.5em;
+	cursor: pointer;
+}
+#menu:after, #call_me:after, #product:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: -2;
+}
+
+#menu:before, #call_me:before, #product:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #F6F3E8;
+  z-index: -1;
+}
+.call_me_grid{
+	display: grid;
+	grid-template-columns: 1fr 0.2fr;
+	margin: 0 10% 5% 10%;
+}
+.red_phone {
+    display: inline-block;
+    background-color: red;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 0 200% 0 100%;
+    margin-left: -55%;
+    z-index: -1;
+    color: #fff;
+    font-size: 2.3vw;
+    height: 3vw;
+	cursor: pointer;
+}
+.call_me_grid > input[type=text]{
+	font-size:3vw;
+	border-radius:50px;
+	border: 0;
+	z-index: 2;
+	padding-left: 0.4em;
+	height: 3vw;
+}
+#menu > p > a{
+	text-decoration: none;
+	color:#000;
+}
+.shop_group {
+    margin: 0 5% 5% 5%;
+    box-shadow: #000;
+    border-radius: 20px;
+    box-shadow: 4px 5px 9px #0000005c;
+    background: #F2EDDD;
+	text-align: center;
+	font-size:2vw;
+
+	
+}
+.shop_group > h2{
+	font-weight: 400;
+	padding-top:0.5em;
+}
+#container{
+	margin: 0 1% 0 1%;
+	display: grid;
+	padding: 0.5em 3%;
+	justify-content: space-between;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+body > div.bg > div.beige_bg > div.shop_group > hr{
+	margin: 0.5em 3%;
+}
+.product {
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 1px 1px 8px #000;
+	flex-direction: row;
+    flex-wrap: nowrap;
+	margin: 1em 2em;
+	width: fit-content;
+	text-align: center;
+	font-size: 1.5vw;
+	
+}
+
+.prodimg {
+    display: block;
+	    margin: auto;
+    width: 100%;
+}
+.prod {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    border-radius: 35px;
+    z-index: 2;
+    background: #f2eddd;
+	padding: 1em;
+	margin:0;
+}
+.popup_group{
+	display: flex;
+	
+}
+#product{
+	margin: 0 5% 0 5%;
+}
+#product > div.popup_group > img {
+    margin: 20px;
+    width: 30%;
+    height: 10%;
+}
+#product > div.popup_group > .right-column {
+    margin-left: 15%;
+}
+.description{
+	font-size:1vw;
+	margin-bottom: 20px;
+}
+body > div.bg > div.beige_bg > div.group > div.right-column > img.about-us_img{
+    width: 80%;
+	margin: 60px 0 0 60px;
+}
+body > div.bg > div.beige_bg > h5{
+	text-align: center;
+}
+	.footer-box > a > img {
+    width: 120%;
+}
+@media (max-width:1080px){
+	.fish, .air-jordan, .links, div.logo > div:nth-child(1), div.logo > div:nth-child(3), div.group3 > div.right-column > div > div.fish, body > div.bg > div.beige_bg > div:nth-child(6) > div.left-column, body > div.bg > div.beige_bg > hr{
+		display:none;
+	}
+		#container, .group2, .group3, .inner-group {
+    display:block;
+}
+	.bg{
+		grid-template-columns: 90% 10%;
+	}
+	.group{
+		grid-template-columns: 1fr;
+		margin: 0 10%;
+	}
+	body{
+		font-size: 4vw;
+	}
+	.logo > h1 {
+    font-size: 5vw;
+}
+	.logo{
+		width:auto;
+	}
+	h2{
+		font-size: 5vw;
+	}
+	body > div.bg > div.beige_bg > div.group > div.right-column > img.about-us_img{
+		margin:0;
+	}
+	img.shoppingcart {
+    display: block;
+    width: 2em;
+    float: right;
+    margin: 10px;
+}
+	.sneaker-groupcont {
+    margin: 20px 0 20px 0;
+    height: 50vw;
+}
+	.toshoprect {
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+	    width: 3.6em;
+
+}
+	#container > div > div.toshoprect {
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 180px;
+	height: auto;
+}
+	.jordan {
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    z-index: 2;
+		width: 100%;
+}
+	.menu_button {
+    float: right;
+    position: fixed;
+    right: 1%;
+    top: 35px;
+    cursor: pointer;
+    width: 8%;
+}
+	.footer-box {
+    margin: 0 5% 2em 5%;
+    display: block;
+}
+	.product {
+    font-size: 4.5vw;
+}
+
+	.sneakergroup {
+    font-size: 10vw;
+    font-weight: 600;
+}
+	.group > div.right-column > h2 {
+    font-size: 8vw;
+    font-weight: 400;
+}
+	.group > div.right-column > h3 {
+    font-size: 5vw;
+    font-weight: 400;
+	margin: 0;
+}
+	div.right-column > h4 {
+    font-size: 4vw;
+    font-weight: 400;
+		margin: 0;
+}
+	.group > div.right-column > h5 {
+    font-size: 2.5vw;
+    font-weight: 400;
+	margin: 0;
+}
+	div:nth-child(4) > div.right-column > p{
+		font-size:1.8vw;
+			margin:0;
+	}
+	.heading {
+    margin: 1.5em 0;
+    width: 100%;
+}
+	.jordan2 {
+    object-fit: cover;
+    width: 100%;
+    height: 25vw;
+}
+	.right-column {
+    font-size: 1em;
+}
+	div.left-column > h4{
+		font-size: 1em;
+	}
+	.popup {
+    width: 90%;
+    right: 5%;
+    left: 5%;
+    font-size: 1.5em;
+}
+	.red_phone {
+    height: 6rem;
+	font-size: 4rem;
+}
+	.call_me_grid > input[type=text] {
+    height: 6rem;
+}
+	.red_phone {
+    padding: 0 50% 0 70%;
+}
+	.footer-box > a > img {
+    width: 55%;
+}
+	.to_call {
+    float: left;
+    width: 65%;
+    cursor: pointer;
+    margin: 1em 0;
+}
+
+	.to_cat {
+    width: 55%;
+    margin: 10% 0 10% 0;
+}
+	.jordan3 {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+	div.group3 > div.right-column {
+    margin: 0;
+}
+	h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+}
+	.popup_group {
+	
+    display: block;
+}
+	#product > div.popup_group > .right-column {
+    margin-left: 0;
+}
+	.description {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+}
