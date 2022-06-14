@@ -5,6 +5,9 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use App\Models\Dish;
+use App\Models\Client;
+use App\Models\Chef;
 
 class DatabaseSeeder extends Seeder
 {
@@ -45,6 +48,68 @@ class DatabaseSeeder extends Seeder
             Усередині мяка текстильна підкладка, устілка, що дихає;
             Підошва з піноматеріалу, прихований балон для амортизації за технологією Air. Гумова підмітка з чіпким візерунком протектора для покращення зчеплення.'
         ]);
+
+        $client = Client::create([
+            'name' => 'Yehor',
+            'surname' => 'Suhulov'
+        ]);
+
+        $client = Client::create([
+            'name' => 'Vadym',
+            'surname' => 'Suhulov'
+        ]);
+        
+        $dish = Dish::create([
+            'name' => 'Carbonara',
+            'client' => 1
+        ]);
+
+        $dish = Dish::create([
+            'name' => 'Pizza',
+            'client' => 1
+        ]);
+
+        $dish = Dish::create([
+            'name' => 'Hamburger',
+            'client' => 1
+        ]);
+
+        $dish = Dish::create([
+            'name' => 'Hamburger',
+            'client' => 2
+        ]);
+
+        $chef = Chef::create([
+            'name' => 'Gordon',
+            'surname' => 'Ramsay'
+        ]);
+
+        $chef = Chef::create([
+            'name' => 'Joshua',
+            'surname' => 'Weissmann'
+        ]);
+
+        DB::table('chef_dish')->insert([
+            'chef_id' => '1',
+            'dish_id' => '1'
+        ]);
+        DB::table('chef_dish')->insert([
+            'chef_id' => '1',
+            'dish_id' => '2'
+        ]);
+        DB::table('chef_dish')->insert([
+            'chef_id' => '1',
+            'dish_id' => '3'
+        ]);
+        DB::table('chef_dish')->insert([
+            'chef_id' => '2',
+            'dish_id' => '3'
+        ]);
+        DB::table('chef_dish')->insert([
+            'chef_id' => '2',
+            'dish_id' => '4'
+        ]);
+
         // \App\Models\User::factory(10)->create();
 
         // \App\Models\User::factory()->create([

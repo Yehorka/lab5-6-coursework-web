@@ -23,3 +23,9 @@ Route::get('/contact', [MainController::class, 'contact'])->name('contact');
 
 Route::get('/sneaker/{id}', [MainController::class, 'sneaker'])->name('sneaker');
 
+Route::get('/lab6/{id1}/{id2}', [MainController::class, 'lab6'])->name('lab6');
+
+Route::post('/', [MainController::class, 'call_me'])->name('call_me');
+
+
+

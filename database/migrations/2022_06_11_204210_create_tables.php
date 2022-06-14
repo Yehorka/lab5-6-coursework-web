@@ -19,6 +19,9 @@ return new class extends Migration
             $table->integer('price');
             $table->longText('description');
         });
+        Schema::create('numbers', function (Blueprint $table) {
+            $table->string('phone');
+        });
     }
 
     /**
@@ -29,5 +32,6 @@ return new class extends Migration
     public function down()
     {
         Schema::dropIfExists('sneakers');
+        Schema::dropIfExists('numbers');
     }
 };
