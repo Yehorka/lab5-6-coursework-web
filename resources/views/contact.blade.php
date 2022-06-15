@@ -15,6 +15,9 @@
             </div>
             <div class="fish">SNEAKER GROUP 07.02.2022</div>
         </div>
+        @if (isset($phone))
+            <p>Ми скоро вам зателефонуємо, ваш номер: {{$phone->phone}}</p>
+            @endif
         <h1>Наші контакти</h1>
         <div class="inner-group">
             <div class="left-column">
@@ -29,14 +32,13 @@
                 Oststr. 36 40211 Duesseldorf
                 Germany
             </div>
-            @if (isset($phone))
-            <p>Ми скоро вам зателефонуємо, ваш номер: {{$phone->phone}}</p>
-            @endif
+            
 
         </div>
         <img class="to_call" src="images/to_call.png" onclick="show('call_me')" role="button">
-
+        
     </div>
+    
 </div>
 
 @endsection

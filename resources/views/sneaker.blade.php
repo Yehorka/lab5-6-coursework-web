@@ -8,9 +8,8 @@
             <h2>{{$sneaker->name;}}</h2>
             <img class="sizes" src="{{url('images/sizes.png')}}">
             <h2>{{$sneaker->price;}}₴</h2>
-            <a href="{{ url('contact') }}">
-                <img class="buy_button" src="{{url('images/Group 22.png')}}">
-            </a>
+                <img class="buy_button" src="{{url('images/Group 22.png')}}" onclick="show('call_me')" role="button"">
+            
         </div>
     </div>
     <div class="description">

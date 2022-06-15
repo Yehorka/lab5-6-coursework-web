@@ -460,6 +460,11 @@ body > div.bg > div.beige_bg > h5{
 #call_me > form > div > button > i{
 	z-index: -1;
 }
+body > div.bg > div.beige_bg > div.group3 > div.right-column > p {
+    font-size: 1.3em;
+    color: #f00;
+    text-shadow: 2px 3px 3px #0000002b;
+}
 
 @media (max-width:1080px){
 	.fish, .air-jordan, .links, div.logo > div:nth-child(1), div.logo > div:nth-child(3), div.group3 > div.right-column > div > div.fish, body > div.bg > div.beige_bg > div:nth-child(6) > div.left-column, body > div.bg > div.beige_bg > hr{
